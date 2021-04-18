@@ -1,0 +1,41 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body id="body">
+        <form>
+            <label for="Author">Author</label>
+            <input type="text" id="author" name="author">
+        
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title">
+
+            <label for="pages">Pages</label>
+            <input type="number" id="pages" name="pages">
+
+            <label for="read">Read already?</label>
+            <input type="checkbox" id="read" name="read" value="1" />
+
+        
+            <button type="submit">Submit</button>
+        </form>
+
+        <container id="books">
+            <div id="read-book"> 
+                <h2>Read Books</h2>
+                <div id="read-book-content-wrapper"></div>
+            </div>
+
+            <div id="unread-book">
+            <h2> Unread Books</h2>
+            <div id="unread-book-content-wrapper"></div>
+            </div>
+        </container>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
