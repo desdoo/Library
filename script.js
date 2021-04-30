@@ -11,12 +11,14 @@ else {
 
 
 
-function Book (author, title, pages, read,id) {
+class Book  {
+    constructor (author, title, pages, read,id) {
     this.author = author
     this.title = title
     this.pages = pages
     this.read  = read
     this.id = id
+    }
 }
 
 function addBookToLibrary () {
